@@ -35,7 +35,7 @@ Usage
 
 For all commands, you need to activate the virtual environment first:
 
-    cd exportMediaWiki2HTML
+    cd Wiki-Scraper-n8n
     source .venv/bin/activate
 
 Please pass the url of the wiki
