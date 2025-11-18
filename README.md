@@ -25,7 +25,7 @@ Install
 =======
 
     git clone https://github.com/dominik70437/Wiki-Scraper-n8n
-    cd wiki_html_n8n
+    cd Wiki-Scraper-n8n
     python3 -m venv .venv
     source .venv/bin/activate
     pip install -r requirements.txt
