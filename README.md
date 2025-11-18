@@ -24,8 +24,8 @@ You need to use a bot password, to make the script work, see [[Special:BotPasswo
 Install
 =======
 
-    git clone https://github.com/SolidCharity/exportMediaWiki2HTML.git
-    cd exportMediaWiki2HTML
+    git clone https://github.com/dominik70437/Wiki-Scraper-n8n
+    cd wiki_html_n8n
     python3 -m venv .venv
     source .venv/bin/activate
     pip install -r requirements.txt
