@@ -54,8 +54,10 @@ Optionally add --webhook-url="http-webhook-test" to send for each page an array 
 
 example of usage:
 
- python3 scraper.py --url="https://your.wiki.com"   --username="Username@Botname"   --password="your-bot-password"   --webhook-url="Your-webhook" 
- --numberOfPages="max"
+    python3 scraper.py --url="https://your.wiki.com"   --username="Username@Botname"   --password="your-bot-password"   --webhook-url="Your-webhook" 
+     --numberOfPages="max"
+
+
 
 
 
