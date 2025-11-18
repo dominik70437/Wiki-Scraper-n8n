@@ -40,15 +40,23 @@ For all commands, you need to activate the virtual environment first:
 
 Please pass the url of the wiki
 
-    python3 exportMediaWiki2Html.py --url https://mywiki.example.org
+    python3 scraper.py --url https://mywiki.example.org
 
 Optionally pass the page id of the page you want to download, eg. for debugging:
 
-    python3 exportMediaWiki2Html.py --url https://mywiki.example.org --page 180
+    python3 scraper.py --url https://mywiki.example.org --page 180
 
 Optionally pass the name of a Bot and the Bot password (create a Bot at https://wiki.example.org/index.php?title=Spezial:BotPasswords):
 
-    python3 exportMediaWiki2Html.py --url https://mywiki.example.org --user "myuser@botname" --password "botpwd" [pageid]
+    python3 scraper.py --url https://mywiki.example.org --user "myuser@botname" --password "botpwd" [pageid]
+
+Optionally add --webhook-url="http-webhook-test" to send for each page an array with content and link as post.
+
+example of usage:
+
+ python3 scraper.py --url="https://your.wiki.com"   --username="Username@Botname"   --password="your-bot-password"   --webhook-url="Your-webhook" 
+ --numberOfPages="max"
+
 
 
 You can use `--help` to see all options.
